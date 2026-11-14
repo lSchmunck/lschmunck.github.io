@@ -11,3 +11,5 @@ if (isMorning) {
 } else if (isEvening) {
   welcome.textContent = "Good evening! Welcome! Stay a while!";
 }
+
+localStorage.setItem("It's a secret to everybody.", "Message Recieved!!!!")
